@@ -61,6 +61,12 @@ kubectl apply -k ./
 
 ## Accessing the WordPress Page
 
+### 1. Create wordpress namespace
+
+```sh
+kubectl create namespace wordpress
+```
+
 ### 1. Get the external IP of the WordPress service
 
 ```sh

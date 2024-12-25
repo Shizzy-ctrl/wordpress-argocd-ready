@@ -52,7 +52,13 @@ kubectl apply -f metallb-config.yaml
 
 ## Installation of Load Balancer Ready WordPress
 
-### 1. Clone the repository and navigate to the folder with all YAML files
+### 1. Create wordpress namespace
+
+```sh
+kubectl create namespace wordpress
+```
+
+### 2. Clone the repository and navigate to the folder with all YAML files
 
 ```sh
 kubectl apply -k ./
@@ -61,11 +67,6 @@ kubectl apply -k ./
 
 ## Accessing the WordPress Page
 
-### 1. Create wordpress namespace
-
-```sh
-kubectl create namespace wordpress
-```
 
 ### 1. Get the external IP of the WordPress service
 

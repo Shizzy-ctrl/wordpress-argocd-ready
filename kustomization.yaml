@@ -8,4 +8,3 @@ resources:
   - mysql-deployment.yaml
   - wordpress-deployment.yaml
   - network-policy.yaml
-  - metallb-config.yaml

@@ -76,4 +76,4 @@ wordpress   LoadBalancer   10.xx.xxx.xxx  xxx.xxx.xxx.xxx  80:300xx/TCP   10m
 
 
 
-![obraz](https://github.com/user-attachments/assets/7ebc0dd0-57ae-4c7d-89e1-202f00202cec) can you make this readme.md more accessible and let me copy it ?
+![obraz](https://github.com/user-attachments/assets/7ebc0dd0-57ae-4c7d-89e1-202f00202cec)

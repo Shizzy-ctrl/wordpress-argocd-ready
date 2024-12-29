@@ -20,3 +20,28 @@
 ## Page access
 
 ![obraz](https://github.com/user-attachments/assets/a876adc8-1659-402e-8011-08c48352b2c4)
+
+
+## Example argocd .yaml file
+
+
+```yaml
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: wordpress-argocd
+spec:
+  destination:
+    name: ''
+    namespace: wordpress-argocd
+    server: https://kubernetes.default.svc
+  source:
+    path: .
+    repoURL: https://github.com/Shizzy-ctrl/wordpress-argocd-ready.git
+    targetRevision: HEAD
+  sources: []
+  project: default
+  syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
+```

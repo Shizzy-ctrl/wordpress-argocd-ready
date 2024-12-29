@@ -1,5 +1,5 @@
 ## WordPress ArgoCD Deployment
-###> Note: This documentation is a work in progress. Please check back for updates and improvements.
+### > Note: This documentation is a work in progress. Please check back for updates and improvements.
 
 
 ## Configuration
@@ -11,11 +11,6 @@
 ## Dashboard
 
 ![obraz](https://github.com/user-attachments/assets/fdb39996-0b31-4e51-86aa-f1068e534527)
-
-
-## K8s Service preview (I have loadbalancer running)
-![obraz](https://github.com/user-attachments/assets/5332e5fb-1524-4e9e-9a7b-d5022e573aa5)
-
 
 ## Page access
 
